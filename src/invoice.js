@@ -1,4 +1,6 @@
 import React from 'react'
+import Description from "./description"
+import BillTo from "./billTo"
 
 
 class Invoice extends React.Component {
@@ -11,7 +13,18 @@ class Invoice extends React.Component {
     render(){
         return (
             <div className='invoice-page'>
-                test
+                <div className="top">
+                    <div className="info">
+                        <div className="company-name">JNH Construction</div>
+                        <div className="address">Address, city, state, zip, phone</div>
+                    </div>
+                </div>
+                <div className="mid">
+                    <BillTo />
+                </div>
+                <div className="bottom">
+                 <Description />
+                </div>
             </div>
         )
     }
