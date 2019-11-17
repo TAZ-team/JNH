@@ -15,7 +15,7 @@ render(){
   return (
     <div id='element-to-print'  className="App">
           
-        <Preview className={'jsx-template'} >
+        <Preview className='jsx-template' >
           <Invoice />
         </Preview>
         <button onClick={()=>print('a', 'jsx-template')}> print</button>
