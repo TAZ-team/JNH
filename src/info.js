@@ -15,14 +15,14 @@ class info extends Component {
     render() { 
         return ( 
             <div className="amnt-desc">
-						<input className="description" 
+						<input className="input" 
 						name="description"
 						value={this.state.description}
 						onChange={this.handleChange}
 						placeholder="Description"
 						/>
 						
-						<input className="amount" 
+						<input className="input" 
 						name="amount"
 						value={this.state.amount}
 						onChange={this.handleChange}

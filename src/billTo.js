@@ -28,6 +28,7 @@ class billTo extends Component {
             value={this.state.name}
             placeholder="name"
             onChange={this.handleChange}
+            className="input"
           />
 
           <input
@@ -35,6 +36,7 @@ class billTo extends Component {
             value={this.state.companyName}
             placeholder="Company Name"
             onChange={this.handleChange}
+            className="input"
           />
 
           <input
@@ -42,6 +44,7 @@ class billTo extends Component {
             value={this.state.streetAddress}
             placeholder="Street"
             onChange={this.handleChange}
+            className="input"
           />
 
           <input
@@ -49,6 +52,7 @@ class billTo extends Component {
             value={this.state.city}
             placeholder="City, ST, Zip"
             onChange={this.handleChange}
+            className="input"
           />
 
           <input
@@ -56,6 +60,7 @@ class billTo extends Component {
             value={this.state.phone}
             placeholder="Phone"
             onChange={this.handleChange}
+            className="input"
           />
 
           <input
@@ -63,6 +68,7 @@ class billTo extends Component {
             value={this.state.email}
             placeholder="Email"
             onChange={this.handleChange}
+            className="input"
           />
         </div>
       </div>
