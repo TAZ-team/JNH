@@ -9,11 +9,11 @@
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "html2pdf.js": "^0.9.1",
-    "massive": "^6.1.1",
+    "massive": "^6.11.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-html2pdf": "^1.0.1",
-    "react-scripts": "3.2.0"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
